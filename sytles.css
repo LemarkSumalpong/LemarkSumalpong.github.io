@@ -32,3 +32,13 @@
         color: black;
         font-weight: bold;
     }
+    nav ul li a:hover{
+        color: red;
+
+    }
+    .detail{
+        margin-left: 8%;
+        margin-top: 15%;
+        
+
+    }
