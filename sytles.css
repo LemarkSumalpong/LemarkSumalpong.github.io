@@ -5,7 +5,7 @@
    
 }
 
-
+   
     .hero{
         position: relative;
         width: 100%;
@@ -77,12 +77,29 @@
         position: absolute;
         bottom: 0;
         right: 100px;
+    }
+    .images{
+        width: 48%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    .images img{
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom ls, left ls;
+    }
+    .images:hover .orange{
+        bottom: 40px;
+    }
+    .images:hover .guy{
+        left:45%;
+    }
 
-    }
-    .background image{
-        background-image: url(/img/background.jpg);
-        background-size: cover;
-    }
+   
     
 
-    
