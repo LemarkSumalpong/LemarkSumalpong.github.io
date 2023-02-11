@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Arial',;
+    font-family: 'sans-serif';
     box-sizing: border-box;
     
 }
@@ -22,7 +22,7 @@
         width: 100%;
         margin: auto;
         padding: 20px 0;
-        background: rgba(54, 51, 51, 0.1);
+        background: rgba(204, 193, 193, 0.1);
         align-items: center;
         box-sizing: border-box;
         justify-content: space-between;
@@ -47,18 +47,20 @@
     nav ul li a{
         font-size: 17px;
         text-decoration: none;
-        color: #fff;
+        background-color: #555;
+        color: black;
         font-weight: bold;
         text-transform: uppercase;
+        transition: all .5s ease;
     }
     nav ul li a:hover{
-        background: red(0, 0, 0, 0.7);
+        background: #fff;
         box-sizing: border-box;
         border-radius: 6px;
-        box-shadow: 0 0 10px red;
+        box-shadow: 0 0 10px #fff;
     }
     a.active, a:hover{
-        background: red;
+        background: #fff;
         transition: .5s;
     }
     .details{
