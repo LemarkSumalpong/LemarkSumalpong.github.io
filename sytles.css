@@ -190,7 +190,7 @@
         min-height: 300px;
     }
     .card{
-        height: 365px;
+        height: 395px;
         width: 335px;
         padding: 20px 35px;
         background: #191919;
@@ -216,6 +216,8 @@
         background-color: transparent;
         border: 2px solid #f9004d;
         cursor: pointer;
+        font-size: 15px;
+        padding: 13px 30px;
     }
     
     .contactme{
