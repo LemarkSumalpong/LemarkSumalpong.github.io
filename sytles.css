@@ -61,3 +61,11 @@
         color: #555;
         line-height: 22px;
     }
+    .images img{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100%;
+
+    }
