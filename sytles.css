@@ -45,22 +45,23 @@
         
     }
     nav ul li a{
-        font-size: 17px;
+        background-color:#f9004d;
+        color: #fff;
         text-decoration: none;
-        background-color: #555;
-        color: black;
+        border: 2px solid transparent;
         font-weight: bold;
-        text-transform: uppercase;
-        transition: all .5s ease;
+        font-size: 15px;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
     }
     nav ul li a:hover{
-        background: #fff;
-        box-sizing: border-box;
-        border-radius: 6px;
-        box-shadow: 0 0 10px #fff;
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
     }
     a.active, a:hover{
-        background: #fff;
+        background: transparent;
         transition: .5s;
     }
     .details{
