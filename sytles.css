@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     font-family: 'sans-serif';
-    box-sizing: border-box;  
+    box-sizing: border-box;     
+}
+html body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 html{
     scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
 }
    
     .hero{
@@ -14,12 +23,7 @@ html{
         height: 100vh;
         background-color: rgb(20, 19, 19);
         opacity: 100%;
-        
-        
-        
-        
-        
-
+        background-attachment: fixed;     
     }
     nav{
         display: flex;
@@ -61,6 +65,8 @@ html{
         padding: 13px 30px;
         border-radius: 30px;
         transition: .4s;
+        position: sticky;
+        float: left;
         
     }
     nav ul li a:hover{
