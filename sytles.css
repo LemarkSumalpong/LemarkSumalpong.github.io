@@ -282,4 +282,9 @@ header{
         line-height: 20px;
         margin-bottom: 20px;   
     }
+     a:link{
+        color: #fcfc;
+            text-decoration: underline;
+
+    }
   
